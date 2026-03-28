@@ -81,3 +81,37 @@
 # print("Division: ", num1 / num2)
 
 # -----------------------------------------------------------
+
+# Problem 6 : Age Check
+
+# 1. Ask the user for their age.
+# 2. If age >= 18 (print "You are an adult.").
+# 3. Else (print "You are a minor.")
+
+# Code 6 :
+
+# user_age = int(input("Enter Your Age: "))
+
+# if user_age >= 18:
+#     print("You are an adult.")
+# else:
+#     print("You are a minor.")
+
+# ----------------------------------------------------------------------
+
+# Problem 7 : Grading System
+
+# 1. Ask the user for their marks.
+# 2. Print grade based on: 90+ (Grade A), 75-89 (Grade B), 50-74 (Grade C), Below 50 (Grade F).
+
+# Code 7 :
+
+user_marks = int(input("Enter your Marks:"))
+if user_marks >= 90:
+    print("Grade A")
+elif user_marks >= 75:
+    print("Grade B")
+elif user_marks >= 50:
+    print("Grade C")
+else:
+    print("Grade F")

@@ -26,3 +26,23 @@ Python is a programming language. It is used for web development, data analysis,
 # User Input with Operations
 - Convert input to int() or float() before calculations.
 - We can perform arithematic operations on input numbers.
+
+# Conditionals in Python
+- conditionals allow our program to make decisions based on certain conditions.
+## if Statement 
+- Execute a block of code ** only if a condition is True **
+## else Statement 
+- Executes a block of code if the condition is False.
+## elif (else if) statement 
+- Check multiple conditions in order.
+- use elif to check additional conditions if the previous if/elif was False.
+- Helps aviod writing many nested if/else statements.
+- example: Grading system using marks of students.
+
+# Comparison Operators
+- > : greater than
+- < : less than
+- >= : greater than or equal
+- <= : less than or eqaul
+- == : equal to
+- != : not equal to
