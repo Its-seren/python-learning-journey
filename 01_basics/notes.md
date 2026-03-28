@@ -1,3 +1,4 @@
+# Pyhton
 Python is a programming language. It is used for web development, data analysis, automation, and more. Let's LEARN it!!!!!!!!!!!!
 
 # Input & Output
@@ -6,6 +7,12 @@ Python is a programming language. It is used for web development, data analysis,
 
 - NOTE!! Input is always a string by default.
 
-# Problem 1 : Hello User
-1. Ask the user for their name using input()
-2. Print a greeting with their name.
+# Converting Input 
+- 'input()' always returns a string.
+- Use 'int()' or 'float()' to convert input to numbers as age is taken in numbers.
+- Convert input to numbers using 'int()' or 'float()' if or when needed.
+
+# Variables and Data Types
+- Variables store data. They act as containers for data.
+- Common data types: int, float, str, bool
+- Use 'type()' function to check a variable's data type.
