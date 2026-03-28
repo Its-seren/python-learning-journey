@@ -16,3 +16,13 @@ Python is a programming language. It is used for web development, data analysis,
 - Variables store data. They act as containers for data.
 - Common data types: int, float, str, bool
 - Use 'type()' function to check a variable's data type.
+
+
+# Operators
+- Arithematic operators: + (Addition), - (Subtraction), * (Multiplication), / (Divison)
+- % (Modulus gives the remainder)
+- // (Floor Division give the integer result)
+
+# User Input with Operations
+- Convert input to int() or float() before calculations.
+- We can perform arithematic operations on input numbers.
