@@ -206,10 +206,65 @@
 
 # Code 14 :
 
-user_input = input("Enter something or 'Exit' to stop...")
+# user_input = ""
 
-while user_input != "Exit":
-    print("Enter 'Exit'")
+# while user_input != "exit":
+#     user_input = input("Type something (or 'exit' to stop): ")
+#     if user_input != "exit":
+#         print("You entered :", user_input)
 
-    if user_input == "Exit":
-        print("Program stopped by Exit operation")
+# -------------------------------------------------------------
+
+# Problem 15 : Number Guessing
+
+# 1. Set a secret number: 7
+# 2. Ask the user to guess the secret number
+# 3. Keep asking until they guess correctly
+# 4. If wrong -> Print "Try Again"
+# 5. If correct -> Print "Correct!" and stop.
+
+# Code 15 :
+
+# secret_number = 7
+# guess = 0
+
+# while guess != secret_number:
+#     guess = int(input("Guess the number: "))
+#     if guess != secret_number:
+#         print("try Agian!")
+
+# print("Correct!")
+
+# -------------------------------------------------------------
+
+# Problem 16 : Smart Calculator
+
+# 1. Show options to the user: add, subtract, multiply, divide, exit.
+# 2. Ask the user to choose an operation
+# 3. Ask for two numbers
+# 4. Perform the operation
+# 5. Show result
+# 6. Repeat until user types "Exit"
+
+# Code 16 :
+
+while True:
+    opr = input("Select an operation (+, -, *, /, and Exit): ")
+
+    if opr == "Exit":
+        print("Calculation Stopped.")
+        break
+
+    num1 = float(input("Enter the First number: "))
+    num2 = float(input("Enter the Second number: "))
+
+    if opr == "+":
+        print("Sum: ", num1 + num2)
+    elif opr == "-":
+        print("Sum: ", num1 - num2)
+    elif opr == "*":
+        print("Sum: ", num1 * num2)
+    elif opr == "/":
+        print("Divison: ", num1 / num2)
+    else:
+        print("Invalid Input!!")

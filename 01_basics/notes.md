@@ -116,3 +116,14 @@ Important Points:
 # Difference B/W For Loop & While Loop
 - In a for loop, the number of iterations is known beforehand.
 - In a while loop, the loop runs based on a condition, not a fixed count.
+
+# While Loop Practice (Guessing Game)
+- While loops are useful for repeating until the correct condition is met.
+- The loop continues until the user gives the correct answer.
+- Common Use: games, input validation, etc
+
+# Mini Project: Smart Calculator
+- Combine loops, conditionals, and input/output.
+- Uses while True for continues execution.
+- Break is used to stop the loop.
+- Useful for building real interactive programs.o
