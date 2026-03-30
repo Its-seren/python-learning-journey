@@ -106,12 +106,110 @@
 
 # Code 7 :
 
-user_marks = int(input("Enter your Marks:"))
-if user_marks >= 90:
-    print("Grade A")
-elif user_marks >= 75:
-    print("Grade B")
-elif user_marks >= 50:
-    print("Grade C")
-else:
-    print("Grade F")
+# user_marks = int(input("Enter your Marks:"))
+# if user_marks >= 90:
+#     print("Grade A")
+# elif user_marks >= 75:
+#     print("Grade B")
+# elif user_marks >= 50:
+#     print("Grade C")
+# else:
+#     print("Grade F")
+
+# ------------------------------------------------------------------------
+
+# Problem 8 : For Loop Basics
+
+# 1. Use a for loop
+# 2. Print numbers from 1 to 5
+
+# Code 8 :
+
+# for i in range(1, 6):
+#     print(i)
+
+# ------------------------------------------------------------------------
+
+# Problem 9 : For Loop Calculations
+
+# 1. Use a for loop
+# 2. Print numbers from 1 to 10
+# 3. Also print their square
+
+# Code 9 :
+
+# for i in range(1, 11):
+#     print(i)
+#     print("Square is", i**2)
+#     print(i, ", The Square of ", i , "is", i*i ,"." )
+
+# ------------------------------------------------------------------------------------
+
+# Problem 10 : For Loop Calculations
+
+# 1. Use a for loop
+# 2. Print even numbers from 1 to 20
+
+# Code 10 :
+
+# for i in range(1, 21):
+#     if i % 2 == 0:
+#         print(i)
+
+#------------------------------------------------------------------------
+
+# Problem 11 : For Loop Calculations
+
+# 1. Use a for loop
+# 2. Find the sum of numbers from 1 to 10
+# 3. Print the final sum
+
+# Code 11 :
+
+# sum = 0
+# for i in range(1,11):
+#     sum += i
+#     print("Sum:", sum)
+
+# -------------------------------------------------------
+
+# Problem 12 : Countdown
+
+# 1. Print numbers from 10 to 1 using a loop
+
+# Code 12 :
+
+# for i in range(10, 0, -1):
+#     print(i)
+
+# -----------------------------------------------------------------
+
+# Problem 13 : While Loop
+
+# 1. Use a while loop
+# 2. Print numbers from 1 to 5
+
+# Code 13 :
+
+# i = 1
+# while i <= 5:
+#     print(i)
+#     i += 1
+
+# -----------------------------------------------------------
+
+# Problem 14 : Loop until Exit
+
+# 1. Keep asking the user to enter something
+# 2. Stop only when the user types "exit"
+# 3. Print whatever the user enters (except "exit")
+
+# Code 14 :
+
+user_input = input("Enter something or 'Exit' to stop...")
+
+while user_input != "Exit":
+    print("Enter 'Exit'")
+
+    if user_input == "Exit":
+        print("Program stopped by Exit operation")
