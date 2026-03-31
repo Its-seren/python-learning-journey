@@ -294,8 +294,44 @@
 
 # Code 18 :
 
-def greet_user(name):
-    print("Hello,", name,"!") # I can also print("Hello,", name + "!"), the plus'+' removes the blank space b/w the name and !.
+# def greet_user(name):
+#     print("Hello,", name,"!") # I can also print("Hello,", name + "!"), the plus'+' removes the blank space b/w the name and !.
 
-greet_user("Seren")
-greet_user("Lily")
+# greet_user("Seren")
+# greet_user("Lily")
+
+# -------------------------------------------------------------
+
+# Problem 19 : Add two numbers with a Function
+
+# 1. Create a function called add that takes two parameters a and b
+# 2. The function should return the sum of a and b
+# 3. Call the function with different numbers and print the result
+
+# Code 19 :
+
+# def add(a, b):
+#     return a+b
+
+# print("The sum of 3 and 4 is ", add(3, 4))
+# print("The sum of 5 and 7 is ", add(5, 7))
+
+# -------------------------------------------------------------
+
+# Problem 20 : Evena and Odd checker with a Function
+
+# 1. Create a function called is_even that takes one number as a parameter
+# 2. The function should return True if the number is even, else False
+# 3. Call the function with different numbers and print the result
+
+# Code 20 :
+
+# def is_even(n):
+#     if n % 2 == 0:
+#         return "True"
+#     else:
+#         return "False"
+    
+# print("Is the number 12 even?", is_even(12))
+# print("Is the number 3 even?", is_even(3))
+# print("Is the number 823213 even?", is_even(823213))
