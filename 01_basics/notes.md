@@ -126,4 +126,16 @@ Important Points:
 - Combine loops, conditionals, and input/output.
 - Uses while True for continues execution.
 - Break is used to stop the loop.
-- Useful for building real interactive programs.o
+- Useful for building real interactive programs.
+
+# Functions
+- Functions are reusable blocks of code
+- Use 'def' to define a function
+- Call the function to execute it
+- Parameters let functions take input
+- return lets functions send outputs back
+- Local variables exist inside functions
+- Global variables exit outside function
+- Functions can have default values for optional inputs
+- Functions make code organized and aviod repetition
+- Functions are everywhere in Python: print(), input(), len(), etc.

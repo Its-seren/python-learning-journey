@@ -248,23 +248,54 @@
 
 # Code 16 :
 
-while True:
-    opr = input("Select an operation (+, -, *, /, and Exit): ")
+# while True:
+#     opr = input("Select an operation (+, -, *, /, and Exit): ")
 
-    if opr == "Exit":
-        print("Calculation Stopped.")
-        break
+#     if opr == "Exit":
+#         print("Calculation Stopped.")
+#         break
 
-    num1 = float(input("Enter the First number: "))
-    num2 = float(input("Enter the Second number: "))
+#     num1 = float(input("Enter the First number: "))
+#     num2 = float(input("Enter the Second number: "))
 
-    if opr == "+":
-        print("Sum: ", num1 + num2)
-    elif opr == "-":
-        print("Sum: ", num1 - num2)
-    elif opr == "*":
-        print("Sum: ", num1 * num2)
-    elif opr == "/":
-        print("Divison: ", num1 / num2)
-    else:
-        print("Invalid Input!!")
+#     if opr == "+":
+#         print("Sum: ", num1 + num2)
+#     elif opr == "-":
+#         print("Sum: ", num1 - num2)
+#     elif opr == "*":
+#         print("Sum: ", num1 * num2)
+#     elif opr == "/":
+#         print("Divison: ", num1 / num2)
+#     else:
+#         print("Invalid Input!!")
+
+# -------------------------------------------------------------
+
+# Problem 17 : First function
+
+# 1. Create a function
+# 2. Inside it, print "Hello, welcome!"
+# 3. Call the function to see the output
+
+# Code 17 :
+
+# def hello():
+#     print("Hello, welcome!")
+
+# hello()
+
+# -------------------------------------------------------------
+
+# Problem 18 : Function with Parameter
+
+# 1. Create a function called greet_user that takes one parameter name
+# 2. Print "Hello, <name!>" inside the function
+# 3. Call the function with at least 2 different names
+
+# Code 18 :
+
+def greet_user(name):
+    print("Hello,", name,"!") # I can also print("Hello,", name + "!"), the plus'+' removes the blank space b/w the name and !.
+
+greet_user("Seren")
+greet_user("Lily")
