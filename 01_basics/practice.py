@@ -377,46 +377,46 @@
 
 # -------------------------------------------------------------
 
-# Problem 16 : Smart Calculator
+# Problem 23 : Smart Calculator with functions
+# 1. Create separate Functions: add() for addition, sub() for subtraction, mul() for multiplication, and div() for division.
+# 2. Show options to the user: add, subtract, multiply, divide, exit.
+# 3. Ask the user to choose an operation
+# 4. Ask for two numbers (num1, num2)
+# 5. Perform the operation
+# 6. Show result
+# 7. Repeat until user types "Exit" (While Loop)
 
-# 1. Show options to the user: add, subtract, multiply, divide, exit.
-# 2. Ask the user to choose an operation
-# 3. Ask for two numbers
-# 4. Perform the operation
-# 5. Show result
-# 6. Repeat until user types "Exit"
+# Code 23 :
 
-# Code 16 :
+# def add(num1, num2):
+#     return num1 + num2
 
-def add(num1, num2):
-    return num1 + num2
+# def sub(num1, num2):
+#     return num1 - num2
 
-def sub(num1, num2):
-    return num1 - num2
+# def mul(num1, num2):
+#     return num1 * num2
 
-def mul(num1, num2):
-    return num1 * num2
+# def div(num1, num2):
+#     return num1 / num2
 
-def div(num1, num2):
-    return num1 / num2
+# while True:
+#     opr = input("Select an operation (+, -, *, /, and Exit): ")
 
-while True:
-    opr = input("Select an operation (+, -, *, /, and Exit): ")
+#     if opr == "Exit":
+#         print("Calculation Stopped.")
+#         break
 
-    if opr == "Exit":
-        print("Calculation Stopped.")
-        break
+#     num1 = float(input("Enter the First number: "))
+#     num2 = float(input("Enter the Second number: "))
 
-    num1 = float(input("Enter the First number: "))
-    num2 = float(input("Enter the Second number: "))
-
-    if opr == "+":
-        print("Sum: ", add(num1, num2)) # small change here
-    elif opr == "-":
-        print("Sum: ", sub(num1, num2)) # small change
-    elif opr == "*":
-        print("Sum: ", mul(num1, num2)) # small change
-    elif opr == "/":
-        print("Divison: ", div(num1, num2)) # small change
-    else:
-        print("Invalid Input!!")
+#     if opr == "+":
+#         print("Sum: ", add(num1, num2)) # small change here
+#     elif opr == "-":
+#         print("Sum: ", sub(num1, num2)) # small change
+#     elif opr == "*":
+#         print("Sum: ", mul(num1, num2)) # small change
+#     elif opr == "/":
+#         print("Divison: ", div(num1, num2)) # small change
+#     else:
+#         print("Invalid Input!!")
