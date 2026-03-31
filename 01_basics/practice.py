@@ -318,7 +318,7 @@
 
 # -------------------------------------------------------------
 
-# Problem 20 : Evena and Odd checker with a Function
+# Problem 20 : Even and Odd checker with a Function
 
 # 1. Create a function called is_even that takes one number as a parameter
 # 2. The function should return True if the number is even, else False
@@ -335,3 +335,88 @@
 # print("Is the number 12 even?", is_even(12))
 # print("Is the number 3 even?", is_even(3))
 # print("Is the number 823213 even?", is_even(823213))
+
+# -------------------------------------------------------------
+
+# Problem 21 : Square of a Number with a function
+
+# 1. Create a function called square that takes one number n as a parameter
+# 2. The function should return the square of the number
+# 3. Call the function with different values and print results
+
+# Code 21 :
+
+# def square(n):
+#     return n**2
+
+# print("The square of 2 is", square(2))
+# print("The square of 45 is", square(45)) # woww!! I got 2025 as an answer ;)>
+# print("The square of 3 is", square(3))
+
+# -------------------------------------------------------------
+
+# Problem 22 : Largest of Three Numbers with a Function (ya, agian with a function)
+
+# 1. Create a function called largest that takes three number: a, b, c as a parameter
+# 2. The function should return the largest number
+# 3. Call the function with different values and print results
+
+# Code 22 :
+
+# def largest(a, b, c):
+#     if a >= b and a >= c:
+#         return a
+#     elif b >= a and b >= c:
+#         return b
+#     else:
+#         return c
+
+# print("The largest is ", largest(1, 4, 2))
+# print("The largest is ", largest(5, 6, 21))
+# print("The largest is ", largest(3, 44, 22))
+
+# -------------------------------------------------------------
+
+# Problem 16 : Smart Calculator
+
+# 1. Show options to the user: add, subtract, multiply, divide, exit.
+# 2. Ask the user to choose an operation
+# 3. Ask for two numbers
+# 4. Perform the operation
+# 5. Show result
+# 6. Repeat until user types "Exit"
+
+# Code 16 :
+
+def add(num1, num2):
+    return num1 + num2
+
+def sub(num1, num2):
+    return num1 - num2
+
+def mul(num1, num2):
+    return num1 * num2
+
+def div(num1, num2):
+    return num1 / num2
+
+while True:
+    opr = input("Select an operation (+, -, *, /, and Exit): ")
+
+    if opr == "Exit":
+        print("Calculation Stopped.")
+        break
+
+    num1 = float(input("Enter the First number: "))
+    num2 = float(input("Enter the Second number: "))
+
+    if opr == "+":
+        print("Sum: ", add(num1, num2)) # small change here
+    elif opr == "-":
+        print("Sum: ", sub(num1, num2)) # small change
+    elif opr == "*":
+        print("Sum: ", mul(num1, num2)) # small change
+    elif opr == "/":
+        print("Divison: ", div(num1, num2)) # small change
+    else:
+        print("Invalid Input!!")
