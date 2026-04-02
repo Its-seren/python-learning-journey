@@ -430,14 +430,14 @@
 
 # Code 24 :
 
-count = 0
+# count = 0
 
-for i in range(1, 6):
-    num = int(input("Enter a number: "))
+# for i in range(1, 6):
+#     num = int(input("Enter a number: "))
 
-    if num % 2 == 0:
-        count += 1
-print("Total Even numbers: ", count)
+#     if num % 2 == 0:
+#         count += 1
+# print("Total Even numbers: ", count)
 
 # -------------------------------------------------------------
 
