@@ -1,0 +1,79 @@
+# Problem 1 : create and Access List
+
+# 1. Create a list of 5 numbers
+# 2. Print: First element, last element
+
+# Code:
+
+# numbers = [8, 54, 89237, 11223, 23]
+# print("First Element: ", numbers[0], "\nLast Element: ", numbers[4])
+
+# -----------------------------------------------------------------------------------------------------
+
+# Problem 2 : Modify List
+
+# 1. Create a list of 5 numbers
+# 2. Change the third element
+# 3. Print the updated list
+
+# Code:
+
+# numbers = [8, 54, 89237, 11223, 23]
+
+# print("Original List: ", numbers)
+
+# numbers[2] = 2003
+
+# print("Modified List:", numbers)
+
+# -----------------------------------------------------------------------------------------------------
+
+# Problem 3 : Add Elements to list
+
+# 1. Create a list of 3 numbers
+# 2. Add: One number using append(), one number using insert() (last element)
+# 3. Print the list
+
+# Code:
+
+# myList = [23, 10, 2003]
+
+# print("original List: ", myList)
+
+# myList.append(2004) # append() adds at the end of the list
+# myList.insert(2, 5) # insert() adds at the given index, here 2
+
+# print("Updated List: ", myList)
+
+# -----------------------------------------------------------------------------------------------------
+
+# Problem 4 : Removes Elements from List
+
+# 1. Create a list of 5 numbers
+# 2. Remove: One number using remove(), one number using pop() (last element)
+# 3. Print the list
+
+# Code:
+
+# myList = [23, 10, 2003]
+
+# print("original List: ", myList)
+
+# myList.remove(23) # remove() removes value 23
+# myList.pop() # pop() removes last element
+
+# print("Updated List: ", myList)
+
+# -----------------------------------------------------------------------------------------------------
+
+# Problem 5 : Loop through List 
+
+# 1. Create a list of 5 numbers
+# 2. Print each number squared using a for loop
+
+# Code:
+
+anotherList = [1, 3, 76, 34, 23]
+
+for i in anotherList:
+    print(i, "squared is", i**2)
