@@ -420,3 +420,30 @@
 #         print("Divison: ", div(num1, num2)) # small change
 #     else:
 #         print("Invalid Input!!")
+
+# -------------------------------------------------------------
+
+# Problem 24 : Count Even Numbers
+# 1. Ask the user to enter 5 numbers (one by one)
+# 2. Count how many of them are even
+# 3. Print the final count
+
+# Code 24 :
+
+count = 0
+
+for i in range(1, 6):
+    num = int(input("Enter a number: "))
+
+    if num % 2 == 0:
+        count += 1
+print("Total Even numbers: ", count)
+
+# -------------------------------------------------------------
+
+# Problem 25 : Reverse a Number
+# 1. Ask the user to enter for a number
+# 2. Reverse the number
+# 3. Print the reversed number
+
+# Code 25 :

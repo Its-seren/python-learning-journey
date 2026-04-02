@@ -1,6 +1,51 @@
 # Pyhton
 Python is a programming language. It is used for web development, data analysis, automation, and more. Let's LEARN it!!!!!!!!!!!!
 
+# Basic Topics 
+1. Input / Output
+- Taking input - input()
+- Formatting output - print()
+- type conversion (int(), float())
+
+2. Variables and Data Types
+- int, float, string, boolean
+- type()
+
+3. Operatores
+- arithmetic operators (+, -, *, /, %(modulus), **(exponent), //(floor division))
+- comparison operators (==(equal to), !=(Not equal to), >(greater than), <(less than), >=(Greater than or equal to), <=(less than or equal to))
+- Assignment Operators (=(assign value), +=(add and assign), -=(subtract and assign), *=(multiply and assign), /=(divide and assign), %=(modulus and assign), **=(exponnet and assign), //=(flooar division and assign))
+- Logical Operators (and (returns True if both conditions are true), or (returns True if at least one condition is true), not (reverses the result(True becomes False, and vice versa)))
+- Bitwise Operators
+- Membership operators
+- Identity operators
+
+4. Conditional Statements
+- if, else, elif
+- Nested Conditons
+
+6. Loops
+- for loop
+- while loop
+- break, continue, pass
+- range()
+- loop + condition
+- loop + counter
+
+7. Functions
+- defining functions def()
+- basic function
+- parameters and return values
+- multiple arguments
+
+------------------------------------------------------------------------
+
+# comments 
+- Comments are used to explain code 
+- They are ignored by Python
+- Single-line comment starts with #
+- example: # This is a comment
+
 # Input & Output
 - 'print()' is used to display output.
 - 'input()' is used to get input from the user.
@@ -11,6 +56,11 @@ Python is a programming language. It is used for web development, data analysis,
 - 'input()' always returns a string.
 - Use 'int()' or 'float()' to convert input to numbers as age is taken in numbers.
 - Convert input to numbers using 'int()' or 'float()' if or when needed.
+
+# Type casting
+- converting one data type to another
+- int(), float(), str()
+-Example: num = int("5") # Here 5 is treated as a string
 
 # Variables and Data Types
 - Variables store data. They act as containers for data.
@@ -121,6 +171,11 @@ Important Points:
 - While loops are useful for repeating until the correct condition is met.
 - The loop continues until the user gives the correct answer.
 - Common Use: games, input validation, etc
+
+# Basic Error Handling
+- Division by zero causes error
+- Invalid input (like letters in int) causes error
+- Programs can crash if not handled
 
 # Mini Project: Smart Calculator
 - Combine loops, conditionals, and input/output.
