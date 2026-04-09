@@ -103,6 +103,22 @@
 
 # Code:
 
-sentence = input("Enter a sentence: ")
-print("All Lowercase: ", sentence.lower())
-print("All Uppercase: ", sentence.upper())
+# sentence = input("Enter a sentence: ")
+# print("All Lowercase: ", sentence.lower())
+# print("All Uppercase: ", sentence.upper())
+
+# -----------------------------------------------------------------------------------------------------
+
+# Problem 3 : Remove Spaces
+
+# 1. Ask user for a sentence with spaces at start/end
+# 2. Remove extra spaces
+# 3. Print cleaned text
+
+# Code:
+
+sentence = input("Enter a sentence with spaces: ")
+
+cleaned = sentence.strip()
+
+print("Cleaned Sentence: ", cleaned)
