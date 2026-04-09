@@ -73,7 +73,23 @@
 
 # Code:
 
-anotherList = [1, 3, 76, 34, 23]
+# anotherList = [1, 3, 76, 34, 23]
 
-for i in anotherList:
-    print(i, "squared is", i**2)
+# for i in anotherList:
+#     print(i, "squared is", i**2)
+
+
+# -----------------------------------------------------------------------------------------------------
+
+# Problem 1 : Basic String Access
+
+# 1. Ask user for their name
+# 2. Print First character, Lastt character, Total length
+
+# Code:
+
+name = input("Enter your name: ")
+
+print("First Character of your name: ", name[0])
+print("Last Character of your name: ", name[-1])
+print("Length of your name: ", len(name))

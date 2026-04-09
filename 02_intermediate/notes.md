@@ -14,3 +14,15 @@ numbers[0] -> 1
 example:
 data = [1, "hello", 3.5, True]
 Here, 1 is an integer, hello is a string, 3.5 is a float, and True is a boolean
+
+# Strings 
+
+- Strings are sequences of characters
+- Can yse single, double, or triple quotes
+- Indexing works like lists (starts at 0)
+- Common methods:
+   - len(s) -> length
+   - s.lower(), s.upper()
+   - s.strip() -> removes space
+   - s.replaced(old, new)
+- Slicing: s[start:end] -> substring
