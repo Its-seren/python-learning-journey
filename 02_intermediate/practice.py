@@ -88,8 +88,21 @@
 
 # Code:
 
-name = input("Enter your name: ")
+# name = input("Enter your name: ")
 
-print("First Character of your name: ", name[0])
-print("Last Character of your name: ", name[-1])
-print("Length of your name: ", len(name))
+# print("First Character of your name: ", name[0])
+# print("Last Character of your name: ", name[-1])
+# print("Length of your name: ", len(name))
+
+# -----------------------------------------------------------------------------------------------------
+
+# Problem 2 : String case conversion
+
+# 1. Ask user for a sentence
+# 2. Print all lowercase, All uppercase
+
+# Code:
+
+sentence = input("Enter a sentence: ")
+print("All Lowercase: ", sentence.lower())
+print("All Uppercase: ", sentence.upper())
