@@ -117,8 +117,40 @@
 
 # Code:
 
-sentence = input("Enter a sentence with spaces: ")
+# sentence = input("Enter a sentence with spaces: ")
 
-cleaned = sentence.strip()
+# cleaned = sentence.strip()
 
-print("Cleaned Sentence: ", cleaned)
+# print("Cleaned Sentence: ", cleaned)
+
+# -----------------------------------------------------------------------------------------------------
+
+# Problem 4 : Remove Spaces
+
+# 1. Ask user for a sentence
+# 2. Replace "bad" with "good"
+# 3. Print updated sentence
+
+# Code:
+
+# text = input("Enter a sentence: ")
+
+# updated = text.replace("bad", "good")
+
+# print("Updated sentence: ", updated)
+
+# -----------------------------------------------------------------------------------------------------
+
+# Problem 5 : String Slicing
+
+# 1. Ask user for a word
+# 2. Print: First 3 characters and last 3 characters
+
+# Code:
+
+# word = input("Enter a word: ")
+
+# print("First 3 Characters: ", word[:3])
+# print("First 3 Characters: ", word[-3:])
+
+# -----------------------------------------------------------------------------------------------------
