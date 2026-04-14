@@ -26,3 +26,16 @@ Here, 1 is an integer, hello is a string, 3.5 is a float, and True is a boolean
    - s.strip() -> removes space
    - s.replaced(old, new)
 - Slicing: s[start:end] -> substring
+
+# Dictionaries
+
+- Dictionaries store data in key_value pairs
+- Syntax: {key: value}
+
+Example:
+student = {"name": "Ali", "Age": 20}
+
+- Access Vlues using keys:  student["name"] -> "Ali"
+
+- Keys must be unique
+- Values can be any data type
