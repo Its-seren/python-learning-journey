@@ -154,3 +154,85 @@
 # print("First 3 Characters: ", word[-3:])
 
 # -----------------------------------------------------------------------------------------------------
+
+# Problem 1 : Dictionary Basics
+
+# 1. Create a Dictionary with: name, age, city
+# 2. Print each value
+
+# Code:
+
+# student = {"name": "Seren", "age": 20, "city": "Doha"}
+
+# print("Name:", student["name"])
+# print("Age:", student["age"])
+# print("City:", student["city"])
+
+# -----------------------------------------------------------------------------------------------------
+
+# Problem 2 : Modify Dictionary
+
+# 1. Create a Dictionary with: name, age, city
+# 2. Change the age
+# 3. Print the updated dictionary
+
+# Code:
+
+# student = {"name": "Seren", "age": 20, "city": "Doha"}
+
+# student["age"] = 25
+# student["name"] = "Lily"
+
+# print(student)
+
+# -----------------------------------------------------------------------------------------------------
+
+# Problem 3 : Add New Key
+
+# 1. Create a Dictionary with name and age
+# 2. Add a new key: "city"
+# 3. Print the updated dictionary
+
+# Code:
+
+# student = {"name": "Seren", "age": 20}
+
+# print(student)
+
+# student["city"] = "Doha"
+
+# print(student)
+
+# -----------------------------------------------------------------------------------------------------
+
+# Problem 4 : Loop Through Dictionary
+
+# 1. Create a Dictionary with name, age and city
+# 2. Use a loop to print: key and value
+
+# Code:
+
+# student = {"name": "Seren", "age": 20, "city": "Doha"}
+
+# for key, value in student.items():
+#     print(key, ":", value)
+
+# -----------------------------------------------------------------------------------------------------
+
+# Problem 5 : Check Key Exits
+
+# 1. Create a Dictionary with name and age
+# 2. Ask user for a key
+# 3. Check if the key Exists
+# 4. Print: "Key Exists", "Key not found"
+
+# code:
+
+student = {"name": "Seren", "age": 20 }
+
+key = input("Enter a key to check: ")
+
+if key in student:
+    print("Key exists")
+else:
+    print("Key not found")
