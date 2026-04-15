@@ -228,11 +228,12 @@
 
 # code:
 
-student = {"name": "Seren", "age": 20 }
+# student = {"name": "Seren", "age": 20 }
 
-key = input("Enter a key to check: ")
+# key = input("Enter a key to check: ")
 
-if key in student:
-    print("Key exists")
-else:
-    print("Key not found")
+# if key in student:
+#     print("Key exists")
+# else:
+#     print("Key not found")
+

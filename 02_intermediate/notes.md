@@ -39,3 +39,21 @@ student = {"name": "Ali", "Age": 20}
 
 - Keys must be unique
 - Values can be any data type
+
+# File Handling
+- used to read and write files
+- open(filename, mode)
+
+Modes:
+- "r" -> read
+- "w" -> write
+- "a" -> append
+
+Example:
+file = open("data.txt", "w")
+file.write("Hello")
+file.close()
+
+Better way:
+with open("data.txt", "w") as file:
+   file.write("Hello")
