@@ -41,6 +41,7 @@ student = {"name": "Ali", "Age": 20}
 - Values can be any data type
 
 # File Handling
+
 - used to read and write files
 - open(filename, mode)
 

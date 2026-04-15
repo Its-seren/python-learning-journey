@@ -237,3 +237,82 @@
 # else:
 #     print("Key not found")
 
+# -----------------------------------------------------------------------------------------------------
+
+# Problem 1 : Write to File
+
+# 1. Create a file data.txt
+# 2. Write "Hello World" into it
+
+# code:
+
+# with open("data.txt", "w") as file:
+#     file.write("Hello World!")
+
+# -----------------------------------------------------------------------------------------------------
+
+# Problem 2 : Read from file
+
+# 1. Open data.txt
+# 2. Read its content
+# 3. Print it
+
+# code:
+
+# with open("data.txt", "r") as file:
+#     dataInFile = file.read()
+
+# print(dataInFile)
+
+# -----------------------------------------------------------------------------------------------------
+
+# Problem 3 : Append to file
+
+# 1. Open data.txt in append mode
+# 2. Add a new line: "Learning Python is fun"
+# 3. Read and print full file content
+
+# code:
+
+# with open("data.txt", "a") as file:
+#     file.write("\nLearning Pyhton is fun!!!!!")
+
+# with open("data.txt", "r") as file:
+#     dataInFile = file.read()
+
+# print(dataInFile)
+
+# -----------------------------------------------------------------------------------------------------
+
+# Problem 4 : Count words in file
+
+# 1. Open data.txt
+# 2. Read the content
+# 3. Count how many words are in the file
+# 4. print the word count
+
+# code:
+
+# with open("data.txt", "r") as file:
+#     content = file.read()
+
+# words = content.split()
+
+# print("Total words: ", len(words))
+
+# -----------------------------------------------------------------------------------------------------
+
+# Problem 5 : Copy file content
+
+# 1. Read content from data.txt
+# 2. Create a new file copy.txt
+# 3. write the same content into copy.txt
+
+# code:
+
+with open("data.txt", "r") as file:
+    content = file.read()
+
+
+with open ("copy.txt", "w") as file:
+    file.write(content)
