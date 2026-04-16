@@ -58,3 +58,21 @@ file.close()
 Better way:
 with open("data.txt", "w") as file:
    file.write("Hello")
+
+
+# Error Handling 
+
+- used to prevent program crashes
+- Uses try and except
+
+Syntax:
+try:
+   - code that may cause error
+except:
+   - runs if error happens
+
+Example:
+try:
+    num = int(input("Enter number: "))
+except:
+    print("Invalid input")

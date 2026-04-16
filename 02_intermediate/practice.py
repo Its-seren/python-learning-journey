@@ -310,9 +310,48 @@
 
 # code:
 
-with open("data.txt", "r") as file:
-    content = file.read()
+# with open("data.txt", "r") as file:
+#     content = file.read()
 
 
-with open ("copy.txt", "w") as file:
-    file.write(content)
+# with open ("copy.txt", "w") as file:
+#     file.write(content)
+
+# -----------------------------------------------------------------------------------------------------
+
+# Problem 1 : Basic Error Handling
+
+# 1. Ask user for a number
+# 2. Convert it to int
+# 3. Handle error if user enters invalid input
+
+# code:
+
+# try:
+#     num = int(input("Enter a number: "))
+#     print("you entered: ", num)
+# except:
+#     print("Invalid input! Please enter a number.")
+
+# -----------------------------------------------------------------------------------------------------
+
+# Problem 2 : Handle Division Error
+
+# 1. Ask user for two numbers
+# 2. Divide them
+# 3. Handle: invalid input, division by zero
+
+# code:
+
+try:
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+
+    result = num1 / num2
+    print("Result: ", result)
+
+except ValueError:
+    print("Inavlid input! Please enter numbers only.")
+
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
